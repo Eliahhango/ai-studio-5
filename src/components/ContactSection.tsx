@@ -34,51 +34,51 @@ export default function ContactSection() {
         </div>
 
         <form className="max-w-2xl w-full mx-auto flex flex-col gap-8">
-          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2">
+          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2 transition-colors duration-300 hover:border-black focus-within:border-black">
             <label className="text-sm font-medium">Your Name*</label>
             <input 
               type="text" 
               placeholder="Who's reaching out?" 
-              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] text-base"
+              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] focus:placeholder:text-gray-500 transition-colors duration-300 text-base"
               required
             />
           </motion.div>
 
-          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2">
+          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2 transition-colors duration-300 hover:border-black focus-within:border-black">
             <label className="text-sm font-medium">Email*</label>
             <input 
               type="email" 
               placeholder="Where can we reach you?" 
-              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] text-base"
+              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] focus:placeholder:text-gray-500 transition-colors duration-300 text-base"
               required
             />
           </motion.div>
 
-          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2">
+          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2 transition-colors duration-300 hover:border-black focus-within:border-black">
             <label className="text-sm font-medium">Phone Number*</label>
             <input 
               type="tel" 
               placeholder="Best number to call you on?" 
-              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] text-base"
+              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] focus:placeholder:text-gray-500 transition-colors duration-300 text-base"
               required
             />
           </motion.div>
 
-          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2">
+          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2 transition-colors duration-300 hover:border-black focus-within:border-black">
             <label className="text-sm font-medium">Farm / Company</label>
             <input 
               type="text" 
               placeholder="Your farm or organization?" 
-              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] text-base"
+              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] focus:placeholder:text-gray-500 transition-colors duration-300 text-base"
             />
           </motion.div>
 
-          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2">
+          <motion.div variants={formVariants} className="flex flex-col gap-2 border-b border-[#D9D9D9] pb-2 transition-colors duration-300 hover:border-black focus-within:border-black">
             <label className="text-sm font-medium">Tell Us More</label>
             <input 
               type="text" 
               placeholder="What crops or acreage would you like to discuss?" 
-              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] text-base"
+              className="w-full bg-transparent outline-none placeholder:text-[#D9D9D9] focus:placeholder:text-gray-500 transition-colors duration-300 text-base"
             />
           </motion.div>
 
