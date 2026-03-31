@@ -9,7 +9,7 @@ export default function ImageSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/1.jpg" 
+          src="https://github.com/dsMagnatov/Acreage-landing-assets/blob/main/1.jpg?raw=true" 
           alt="Agriculture Field" 
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
@@ -64,7 +64,7 @@ export default function ImageSection() {
             className="flex flex-col w-full max-w-[420px]"
           >
             <div className="w-12 h-12 mb-6 flex items-center justify-center overflow-hidden">
-              <Player src="/curry.json" loop autoplay style={{ width: '48px', height: '48px' }} />
+              <Player src="https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/curry.json" loop autoplay style={{ width: '48px', height: '48px', filter: 'brightness(0) invert(1)' }} />
             </div>
             <div className="w-full h-px bg-white/20 mb-6"></div>
             <h3 className="text-2xl font-medium text-white mb-3"><Typewriter text="Sustainable Crop Care" delay={0.1} speed={0.012} /></h3>
@@ -80,7 +80,7 @@ export default function ImageSection() {
             className="flex flex-col w-full max-w-[420px]"
           >
             <div className="w-12 h-12 mb-6 flex items-center justify-center overflow-hidden">
-              <Player src="/tractor.json" loop autoplay style={{ width: '48px', height: '48px' }} />
+              <Player src="https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/tractor.json" loop autoplay style={{ width: '48px', height: '48px', filter: 'brightness(0) invert(1)' }} />
             </div>
             <div className="w-full h-px bg-white/20 mb-6"></div>
             <h3 className="text-2xl font-medium text-white mb-3"><Typewriter text="Advanced Machinery" delay={0.1} speed={0.012} /></h3>
@@ -96,7 +96,7 @@ export default function ImageSection() {
             className="flex flex-col w-full max-w-[421px]"
           >
             <div className="w-12 h-12 mb-6 flex items-center justify-center overflow-hidden">
-              <Player src="/beetle.json" loop autoplay style={{ width: '48px', height: '48px' }} />
+              <Player src="https://raw.githubusercontent.com/dsMagnatov/Acreage-landing-assets/refs/heads/main/beetle.json" loop autoplay style={{ width: '48px', height: '48px', filter: 'brightness(0) invert(1)' }} />
             </div>
             <div className="w-full h-px bg-white/20 mb-6"></div>
             <h3 className="text-2xl font-medium text-white mb-3"><Typewriter text="Smart Pest Management" delay={0.1} speed={0.012} /></h3>
